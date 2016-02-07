@@ -1,4 +1,5 @@
 {
+
  "authors": [
  {
  "name": "hana",
@@ -7,20 +8,24 @@
  "role": "Developer"
  }
  ],
+ 
  "repositories": [
  {
  "type": "vcs",
  "url": "git@bitbucket.org:HanaDemas/test.git"
  }
  ],
+ 
  "require": {
  "php": ">=5.4.2",
  "monolog/monolog": "*",
  "distical/distical": "dev-master"
  },
+ 
  "autoload": {
  "classmap": [
  "classes"
 ]
  }
+ 
 }
