@@ -6,6 +6,13 @@
  "role": "Developer"
  }
  ],
+ 
+ "repositories": [
+ {
+ "type": "vcs",
+ "url": "https://github.com/bobsta63/distical.git"
+ }
+ ],
  "require": {
  "monolog/monolog": "*",
  "distical/distical": "dev-master"
