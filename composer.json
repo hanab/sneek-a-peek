@@ -1,4 +1,12 @@
 {
+"authors": [
+ {
+ "name": "Hana Demas",
+ "email": "hb16826@gmail.com",
+ "homepage": "http://www.supared.com",
+ "role": "Developer"
+ }
+ ],
  "repositories": [
  {
  "type": "git",
