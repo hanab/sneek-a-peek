@@ -1,6 +1,6 @@
 {
     "require": {
-        "vendor/my-private-repo": "dev-master"
+        "vendor/my-private-repo": "HanaDemas/test"
     },
     "repositories": [
         {
