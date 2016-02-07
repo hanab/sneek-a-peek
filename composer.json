@@ -10,7 +10,7 @@
  "repositories": [
  {
  "type": "vcs",
- "url": "git@bitbucket.org:vendor/test.git"
+ "url": "https://HanaDemas@bitbucket.org/HanaDemas/test.git"
  }
  ],
  "require": {
