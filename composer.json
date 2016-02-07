@@ -6,10 +6,9 @@
  "role": "Developer"
  }
  ],
- 
  "repositories": [
  {
- "type": "git",
+ "type": "vcs",
  "url": "git@bitbucket.org:HanaDemas/test.git"
  }
  ],
