@@ -1,0 +1,18 @@
+{
+ "authors": [
+ {
+ "name": "Hana",
+ "email": "hb16826@gmail.com",
+ "role": "Developer"
+ }
+ ],
+ "require": {
+ "monolog/monolog": "*",
+ "distical/distical": "dev-master"
+ },
+ "autoload": {
+ "classmap": [
+ "classes"
+]
+ }
+}
