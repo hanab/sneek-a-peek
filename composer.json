@@ -10,7 +10,7 @@
  "repositories": [
  {
  "type": "git",
- "url": "https://HanaDemas@bitbucket.org/HanaDemas/test.git"
+ "url": "git@bitbucket.org:HanaDemas/test.git"
  }
  ],
  "require": {
