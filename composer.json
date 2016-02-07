@@ -1,25 +1,11 @@
 {
-"authors": [
- {
- "name": "HanaDemas",
- "email": "hb16826@gmail.com",
- "homepage": "http://www.supared.com",
- "role": "Developer"
- }
- ],
- "repositories": [
- {
- "type": "git",
- "url": "git@bitbucket.org:HanaDemas/test.git"
- }
- ],
- "require": {
- "monolog/monolog": "*",
- "distical/distical": "dev-master"
- },
- "autoload": {
- "classmap": [
- "classes"
-]
- }
+    "require": {
+        "vendor/my-private-repo": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@bitbucket.org:vendor/my-private-repo.git"
+        }
+    ]
 }
