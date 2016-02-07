@@ -10,7 +10,7 @@
  "repositories": [
  {
  "type": "vcs",
- "url": "https://github.com/bobsta63/distical.git"
+ "url": "git@bitbucket.org:vendor/test.git"
  }
  ],
  "require": {
