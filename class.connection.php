@@ -3,13 +3,14 @@
  
 class Conncection {
 
-    public $db;
-     $db_name = "hanad";
+    $db_name = "hanad";
      $db_user = "root";
      $db_pass = "";
      $db_host = "127.0.0.1";
+   
+   public $db;
+     
  
-    
     
     public function __construct(){
 8
