@@ -4,7 +4,7 @@
 require_once __DIR__ . '/vendor/autoload.php';
 
  echo realpath (dirname(__FILE__));
- $con = new Connection();
+ $con = new Conncection();
 
 $sqlCommand = "CREATE TABLE register (
 		 		 id int(11) NOT NULL auto_increment,
