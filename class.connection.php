@@ -1,11 +1,10 @@
 
  <?php
- 
-    define('DB_SERVER', 'localhost');
-    define('DB_USERNAME', 'root');
-    define('DB_PASSWORD', '');
-    define('DB_DATABASE', 'hanad');
- 
+ $host="127.0.0.1";
+ $user="root";
+ $pass="";
+ $db="hanad";
+    
 class Conncection {
 
     
@@ -17,7 +16,7 @@ class Conncection {
     
     public function __construct(){
 8
-        $this->db = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
+        $this->db = mysqli_connect($host,$user,$pass,$db);
 9
             if(mysqli_connect_errno()) {
 11
