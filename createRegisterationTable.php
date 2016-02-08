@@ -4,8 +4,8 @@
 require_once __DIR__ . '/vendor/autoload.php';
 include('myclasses/connection.php');
 
- if (class_exists('Conncection')) {
-    $con = new Conncection();
+ if (class_exists('Connection')) {
+    $con = new Connection();
 }
 else
 {
