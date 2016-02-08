@@ -4,7 +4,8 @@ require "class.connection.php";
 
 $con = new Connection()
 
-$sqlCommand = "CREATE TABLE `registrationTable` (
+$sqlCommand = "CREATE TABLE registrationtable
+                (
 		 		 id int(11) NOT NULL auto_increment,
 				 username varchar(24), NOT NUL,
 		 		 password varchar(24) NOT NULL,
