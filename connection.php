@@ -1,5 +1,5 @@
 <?php
-require 'vendor/autoload.php';
+namespace DatabaseHandler;
 
 
 class Conncection {
