@@ -2,7 +2,7 @@
 namespace DatabaseHandler;
 
 
-class Conncection {
+class Connection {
 
     
  private $host="127.0.0.1";
