@@ -26,9 +26,9 @@
         }
 15    }
  */
-$host="mysql.metropolia.fi";
-$user="hanad";
-$pass="iloveprogramming";
+$host="localhost";
+$user="root";
+$pass="";
 $db="hanad";
 // connect to the database
 $con=mysqli_connect($host,$user,$pass,$db);
