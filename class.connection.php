@@ -8,9 +8,7 @@ class Conncection {
  private $user="root";
  private $pass="";
  private $db="hanad";
-    
-   
-     public $db;
+ public $db;
      
  
     
