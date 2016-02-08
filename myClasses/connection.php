@@ -24,7 +24,7 @@ class connection {
 
         }
         else {
-        echo "succesfully connected";
+        echo "succesfully connected to DB";
         
         }
 
