@@ -4,14 +4,9 @@
  require_once __DIR__ . '/vendor/autoload.php';
  use DatabaseHandler\connection;
 
- if (class_exists('Connection')) {
-    $con = new Connection();
-}
-else
-{
-echo " ERROR:";
-}
  
+   $con = new connection();
+
 
 $sqlCommand = "CREATE TABLE register (
 		 		 id int(11) NOT NULL auto_increment,
