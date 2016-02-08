@@ -1,14 +1,14 @@
 
  <?php
+ 
+class Conncection {
+
+    
  $host="127.0.0.1";
  $user="root";
  $pass="";
  $db="hanad";
     
-class Conncection {
-
-    
-
    
      public $db;
      
