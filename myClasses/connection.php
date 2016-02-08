@@ -9,7 +9,7 @@ class connection {
  private $user="root";
  private $pass="";
  private $db="hanad";
- global $con_db;
+ public $con_db;
      
  
     
