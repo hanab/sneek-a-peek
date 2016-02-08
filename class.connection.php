@@ -1,12 +1,14 @@
 
  <?php
  
-class Conncection {
-
     define('DB_SERVER', 'localhost');
     define('DB_USERNAME', 'root');
     define('DB_PASSWORD', '');
     define('DB_DATABASE', 'hanad');
+ 
+class Conncection {
+
+    
 
    
      public $db;
