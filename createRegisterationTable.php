@@ -1,6 +1,6 @@
 <?php
 // Connect to the MySQL database  
-include_once 'class.connection.php';
+include_once 'connection.php';
 require 'vendor/autoload.php';
 
 
