@@ -18,8 +18,8 @@
 
             $sql="SELECT * FROM register WHERE username='$name' OR email='$uemail'";
             
-            $obj = $con->con_db;
-            $check =  $obj->query($sql) ;
+           
+            $check = mysqli_query($con->con_db,$sql);
 
             $count_row = $check->num_rows;
 
