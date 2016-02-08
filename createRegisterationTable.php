@@ -4,8 +4,14 @@
 require_once __DIR__ . '/vendor/autoload.php';
 require_once 'connection.php';
 
- echo realpath (dirname(__FILE__));
- $con = new Conncection();
+ if (class_exists('Conncection')) {
+    $con = new Conncection();
+}
+else
+{
+echo " ERROR:";
+}
+ 
 
 $sqlCommand = "CREATE TABLE register (
 		 		 id int(11) NOT NULL auto_increment,
