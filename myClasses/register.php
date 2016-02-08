@@ -3,7 +3,7 @@
 
   require_once __DIR__ . '/../vendor/autoload.php';
   use DatabaseHandler\connection;
-  $con = new connection();
+  
 
  
 
@@ -12,7 +12,7 @@
  
      public function reg_user($name,$pass,$uemail) {
 
- 
+           $con = new connection();
 
             $password = md5($password);
 
