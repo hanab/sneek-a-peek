@@ -1,8 +1,7 @@
 <?php
 
 // Connect to the MySQL database  
-include('connection.php');
-require 'vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
  echo realpath (dirname(__FILE__));
  $con = new Connection();
