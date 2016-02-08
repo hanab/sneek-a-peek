@@ -1,6 +1,7 @@
 <?php
 // Connect to the MySQL database  
-require "class.connection.php"; 
+nclude_once 'class.connection.php';
+
 
 $con = new Connection();
 
