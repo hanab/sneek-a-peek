@@ -4,7 +4,7 @@
 include('connection.php');
 require 'vendor/autoload.php';
 
-
+ echo realpath (dirname(__FILE__));
  $con = new Connection();
 
 $sqlCommand = "CREATE TABLE register (
