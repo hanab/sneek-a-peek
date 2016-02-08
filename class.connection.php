@@ -4,10 +4,10 @@
 class Conncection {
 
     
- $host="127.0.0.1";
- $user="root";
- $pass="";
- $db="hanad";
+ private $host="127.0.0.1";
+ private $user="root";
+ private $pass="";
+ private $db="hanad";
     
    
      public $db;
@@ -15,19 +15,18 @@ class Conncection {
  
     
     public function __construct(){
-8
-        $this->db = mysqli_connect($host,$user,$pass,$db);
-9
+
+        $this->db = mysqli_connect($this->host,$this->user,$this->pass,$this->db);
+
             if(mysqli_connect_errno()) {
-11
+
                 echo "Error: Could not connect to database.";
-12
                     exit;
-13
+
         }
-14
+
         }
-15    }
+   }
 
 
 
