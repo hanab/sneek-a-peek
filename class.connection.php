@@ -3,10 +3,10 @@
  
 class Conncection {
 
-    private $db_name = "hanad";
-    private $db_user = "root";
-    private $db_pass = "";
-    private $db_host = "127.0.0.1";
+    private $name = "hanad";
+    private $user = "root";
+    private $pass = "";
+    private $host = "127.0.0.1";
    
      public $db;
      
@@ -14,7 +14,7 @@ class Conncection {
     
     public function __construct(){
 8
-        $this->db = mysqli_connect($this->db_host, $this->db_user, $this->db_pass, $this->db_name);
+        $this->db = mysqli_connect($this->host, $this->user, $this->pass, $this->name);
 9
             if(mysqli_connect_errno()) {
 11
