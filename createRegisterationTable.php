@@ -2,7 +2,7 @@
 // Connect to the MySQL database  
 require "class.connection.php"; 
 
-$con = new Connection()
+$con = new Connection();
 
 $sqlCommand = "CREATE TABLE register (
 		 		 id int(11) NOT NULL auto_increment,
@@ -12,7 +12,7 @@ $sqlCommand = "CREATE TABLE register (
                  PRIMARY KEY (id),
 		 		 UNIQUE KEY username (username)
 		 		 ) ";
-if (mysqli_query($con->db,$sqlCommand)){ 
+if (mysqli_query($con->db, $sqlCommand)){ 
     echo "Your registration table has been created successfully!"; 
 } else { 
     echo " ERROR: registration table has not been created.";
