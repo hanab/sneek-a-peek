@@ -19,7 +19,7 @@
             $sql="SELECT * FROM register WHERE username='$name' OR email='$uemail'";
             
             $obj = $con->con_db;
-            $check =  $obj->query($sql) ;
+            $check =  $con->query($sql) ;
 
             $count_row = $check->num_rows;
 
