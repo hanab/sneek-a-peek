@@ -6,7 +6,7 @@ $con = new Connection()
 
 $sqlCommand = "CREATE TABLE `registrationTable` (
 		 		 id int(11) NOT NULL auto_increment,
-				 username varchar(24), NOT NUL
+				 username varchar(24), NOT NUL,
 		 		 password varchar(24) NOT NULL,
 		 		 email VARCHAR(70) UNIQUE,
                  PRIMARY KEY (id),
