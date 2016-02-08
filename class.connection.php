@@ -13,7 +13,7 @@ class Conncection {
     
     public function __construct(){
 8
-        $this->db = new mysqli($this->db_host, $this->db_user, $this->db_pass, $this->db_name);
+        $this-&gt;db = new mysqli($this-&gt;db_host, $this-&gt;db_user, $this-&gt;db_pass, $this-&gt;db_name);
 9
             if(mysqli_connect_errno()) {
 11
