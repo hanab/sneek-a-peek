@@ -1,7 +1,7 @@
 
  <?php
  
-class Conncection {
+/*class Conncection {
 
     public $db;
     protected $db_name = "hanad";
@@ -25,5 +25,12 @@ class Conncection {
 14
         }
 15    }
- 
+ */
+$host="mysql.metropolia.fi";
+$user="hanad";
+$pass="iloveprogramming";
+$db="hanad";
+// connect to the database
+$con=mysqli_connect($host,$user,$pass,$db);
+
 ?>
