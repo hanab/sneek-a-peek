@@ -8,13 +8,13 @@ class Conncection {
  private $user="root";
  private $pass="";
  private $db="hanad";
- public $db;
+ public $con_db;
      
  
     
     public function __construct(){
 
-        $this->db = mysqli_connect($this->host,$this->user,$this->pass,$this->db);
+        $this->con_db = mysqli_connect($this->host,$this->user,$this->pass,$this->db);
 
             if(mysqli_connect_errno()) {
 
