@@ -17,8 +17,9 @@
             $password = md5($password);
 
             $sql="SELECT * FROM register WHERE username='$name' OR email='$uemail'";
-
-            $check =  $con->con_db->query($sql) ;
+            
+            $obj = $con->con_db;
+            $check =  $obj->query($sql) ;
 
             $count_row = $check->num_rows;
 
