@@ -1,6 +1,6 @@
 <?php
 // Connect to the MySQL database  
-nclude_once 'class.connection.php';
+include_once 'class.connection.php';
 
 
 $con = new Connection();
