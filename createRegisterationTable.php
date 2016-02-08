@@ -1,8 +1,8 @@
 <?php
 
 // Connect to the MySQL database  
-require_once __DIR__ . '/vendor/autoload.php';
-include('myclasses/connection.php');
+ require_once __DIR__ . '/vendor/autoload.php';
+ use DatabaseHandler\connection;
 
  if (class_exists('Connection')) {
     $con = new Connection();
