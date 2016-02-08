@@ -6,7 +6,7 @@
   $con = new connection();
 
  
- 
+ namespace DatabaseHandler;
  
  class register {
  
