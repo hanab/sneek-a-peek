@@ -1,7 +1,7 @@
 <?php
 // Connect to the MySQL database  
-include_once 'connection.php';
-require 'vendor/autoload.php';
+include_once '/connection.php';
+require '/vendor/autoload.php';
 
 
 $con = new Connection();
