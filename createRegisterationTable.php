@@ -2,7 +2,7 @@
 
 // Connect to the MySQL database  
 require_once __DIR__ . '/vendor/autoload.php';
-require_once 'connection.php';
+include('connection.php');
 
  if (class_exists('Conncection')) {
     $con = new Conncection();
