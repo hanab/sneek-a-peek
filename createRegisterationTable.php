@@ -2,6 +2,7 @@
 
 // Connect to the MySQL database  
 require_once __DIR__ . '/vendor/autoload.php';
+require_once 'connection.php';
 
  echo realpath (dirname(__FILE__));
  $con = new Conncection();
