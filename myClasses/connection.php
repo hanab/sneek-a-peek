@@ -23,6 +23,10 @@ class connection {
                     exit;
 
         }
+        else {
+        echo "succesfully connected";
+        
+        }
 
         }
    }
