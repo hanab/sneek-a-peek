@@ -1,7 +1,7 @@
 { 
   "name": "HanaDemas/test",
   "autoload": {
-    "psr-4": {"DatabaseHandler\\": "/"}
+    "psr-4": {"DatabaseHandler\\": "./"}
   },
    "require": {
         "monolog/monolog": "*",
