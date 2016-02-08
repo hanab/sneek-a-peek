@@ -1,12 +1,12 @@
 <?php
-
+ namespace DatabaseHandler;
 
   require_once __DIR__ . '/vendor/autoload.php';
   use DatabaseHandler\connection;
   $con = new connection();
 
  
- namespace DatabaseHandler;
+
  
  class register {
  
