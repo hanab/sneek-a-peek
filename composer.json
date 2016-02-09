@@ -1,5 +1,5 @@
 { 
-  "name": "HanaDemas/test",
+  "name": "HanaDemas/sneek-a-peek",
   "autoload": {
     "psr-4": {"DatabaseHandler\\": "myClasses/"}
   },
@@ -10,7 +10,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url":  "git@bitbucket.org:HanaDemas/test.git"
+            "url":  "git@bitbucket.org:HanaDemas/sneek-a-peek.git"
         }
     ]
 }
