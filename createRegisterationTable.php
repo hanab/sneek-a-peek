@@ -4,11 +4,11 @@
  require_once __DIR__ . '/vendor/autoload.php';
  use DatabaseHandler\connection;
 
- 
+  //instantiate obj of type connection
    $con = new connection();
 
-
-$sqlCommand = "CREATE TABLE register (
+  //run this script once to create the registration table
+   $sqlCommand = "CREATE TABLE register (
 		 		 id int(11) NOT NULL auto_increment,
 				 username varchar(24) NOT NULL,
 		 		 password varchar(24) NOT NULL,
