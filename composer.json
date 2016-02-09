@@ -5,7 +5,7 @@
   },
    "require": {
         "monolog/monolog": "*",
-        "HanaDemas/test": "dev-master"
+        "HanaDemas/sneek-a-peek": "dev-master"
     },
     "repositories": [
         {
